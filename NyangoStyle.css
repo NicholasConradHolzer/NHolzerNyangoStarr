@@ -1,0 +1,103 @@
+body{ 
+    background-color: honeydew;
+}
+#vortex{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -1;
+    transform:scale3d(2.0,1.5,1.0)
+}
+h1{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1612230800617-62f7eab39dfc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0JTIwZnVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 370px;
+}
+h2{
+    text-align: center;
+    background-image: url(https://www.publicdomainpictures.net/pictures/140000/velka/cat-fur-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 370px;
+}
+table{
+    background-image: url(https://i0.wp.com/ghostsnghouls.com/wp-content/uploads/2020/04/spooky-orchard.jpg?w=1920&ssl=1);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    float:right;
+    border-radius: 36px;
+}
+tr{
+    display:block;
+    text-align: center;
+    margin-right: 0 auto;
+}
+img{
+    border: red;
+    border-width: 7px;
+    border-style: dotted;
+    border-radius: 10px;
+}
+h4{
+    font-size: x-large;
+}
+h4,p{
+    text-align: center;
+    background-color: indianred;
+    border-radius: 25px;
+}
+li{
+    
+}
+ul{
+    text-align: center;
+    list-style: inside;
+    background-color: lightcoral;
+    border-radius:24px;
+}
+p, li{
+    font-family: cursive;
+}
+.center{
+    text-align: center;
+    list-style-position: inside;
+    background-color: lightcoral;
+    border-radius:24px;
+}
+h2,h3,h4{
+    font-family: fantasy;
+}
+h3{
+    text-align: center;
+    background-color: indianred;
+    font-size: x-large;
+}
+#liveplay{
+    border: red;
+    border-width: 7px;
+    border-style: dotted;
+    display: block;
+    margin:0 auto;
+    
+}
+#listicles{
+    float: inline-start;
+}
+#shapebreak{
+    clear:both
+}
+#video-block{
+    display: block;
+    background-image: url(https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Keith%20Patrak,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1580917177/blv8cytipjpnyi6esxft.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 36px;
+}
